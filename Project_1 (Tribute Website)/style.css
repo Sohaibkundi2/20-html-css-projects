@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(214, 218, 255);
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+header {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ist_part img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.secend_part h1 {
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 3px;
+    font-size: 5vw;
+    text-align: end;
+    margin-bottom: 2vw;
+}
+
+.secend_part p {
+    text-align: end;
+}
+
+section-1,
+section-2,
+section-3,
+section-4,
+footer {
+    margin-top: 20px;
+    font-size: large;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.tab-pic {
+    width: 250px;
+    height: 160px;
+    margin-right: 0
+}
+
+section-3 h2 {
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+section-4 h2 {
+    line-height: 50px;
+    letter-spacing: 1.2px;
+}
+
+footer p {
+    text-align: end;
+}
+
+@media (max-width:768px) {
+    * {
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    td {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab-pic {
+        width: 70%;
+        margin: 10% 0 0 15%;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .ist_part img {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .secend_part h1 {
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 31x;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .secend_part p {
+        text-align: center;
+    }
+
+    section-1,
+    section-2,
+    section-3,
+    section-4,
+    footer {
+        margin-top: 20px;
+        font-size: medium;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    section-3 h2 {
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+
+    section-4 h2 {
+        line-height: 1;
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+
+    footer p {
+        text-align: end;
+        font-size: smaller;
+    }
+
+    footer p:nth-child(1) {
+        text-align: start;
+    }
+
+}
