@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Heading section*/
+.all_bars {
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+
+.container {
+    width: 100%;
+}
+
+.side_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.dots {
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.subsription img {
+    padding-left: 12px;
+}
+
+.side_nav div p {
+    font-size: x-small;
+}
+
+.main_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(230, 220, 220);
+}
+
+.nav_ist img {
+    width: 100px;
+}
+
+.nav_center {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_center input {
+    border: 1px solid rgb(230, 220, 220);
+    border-right: 2px solid rgb(168, 168, 168);
+    min-width: 300px;
+    border-radius: 10px 0 0 10px;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.nav_center button {
+    border: none;
+    background-color: rgb(230, 220, 220);
+    width: 50px;
+    border-radius: 0 10px 10px 0;
+}
+
+.nav_center img {
+    padding-left: 20px;
+}
+
+.nav_last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav_last i img {
+    width: 30px;
+    padding: 3px;
+    border-radius: 50%;
+
+}
+
+.nav_last i img:hover {
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+
+}
+
+.topics {
+    /* width: 100%; */
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.tags {
+    padding: 8px 15px;
+    border: 2px solid rgb(201, 199, 199);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.light:hover {
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.dark {
+    background-color: black;
+    border: 2px solid rgb(83, 83, 83);
+    color: white;
+}
+
+main {
+    background-color: rgb(243, 234, 234);
+    min-height: 00vh;
+}
+
+.main_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 320px;
+    padding: 10px;
+}
+
+.image img {
+    width: 300px;
+    transition: .3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.03);
+    transition: .2s ease-in-out;
+}
+
+.card_content {
+
+    display: flex;
+    gap: 10px;
+}
+
+.card_content img {
+    width: 40px;
+}
+
+.channel,
+.views {
+    display: flex;
+    padding-left: 40px;
+}
+
+.channel {
+    font-weight: 500;
+}
+
+/* mobile responsive */
+@media (max-width:500px) {
+
+    /* Heading section*/
+    .all_bars {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .side_nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        display: none;
+    }
+
+    .dots {
+        margin: 20px;
+        margin-bottom: 0;
+    }
+
+    .subsription img {
+        padding-left: 12px;
+    }
+
+    .side_nav div p {
+        font-size: x-small;
+    }
+
+    .main_nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(230, 220, 220);
+    }
+
+    .nav_ist img {
+        width: 50px;
+    }
+
+    .nav_center {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav_center input {
+        border: 1px solid rgb(230, 220, 220);
+        border-right: 2px solid rgb(168, 168, 168);
+        min-width: 50px;
+        border-radius: 10px 0 0 10px;
+        padding-left: 10px;
+        font-size: small;
+    }
+
+    .nav_center button {
+        border: none;
+        background-color: rgb(230, 220, 220);
+        width: 30px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .nav_center img {
+        padding-left: 0px;
+        height: 20px;
+    }
+
+    .nav_last {
+        display: none;
+    }
+
+    .nav_last i img {
+        width: 20px;
+        padding: 3px;
+        border-radius: 50%;
+
+    }
+
+    .topics {
+        /* width: 100%; */
+        display: flex;
+        gap: 10px;
+        margin-left: 5px;
+        margin-bottom: 2px;
+        overflow: hidden;
+    }
+
+    .tags {
+        padding: 3px 10px;
+        padding-left: 0;
+        border: 2px solid rgb(201, 199, 199);
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+
+    .card {
+        width: 300px;
+        padding: 15px;
+    }
+
+
+    .channel,
+    .views {
+        display: flex;
+        padding-left: 40px;
+    }
+
+    .channel {
+        font-weight: 300;
+    }
+
+}
