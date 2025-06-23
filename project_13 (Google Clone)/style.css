@@ -1,0 +1,75 @@
+*{
+    margin: 0 px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(sky.jpg) no-repeat;
+    background-size: cover;
+    
+}
+#main{
+    width: 400px;
+    background-color:transparent;
+    border: 2px solid rgb(44, 7, 225);
+    backdrop-filter: blur(20px);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.allboxes{
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    color: black;
+    background-color:transparent;
+}
+input{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid rgb(78, 16, 212);
+    font-size: 16px;
+    padding-left: 8px;
+    
+}
+#check{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: smaller;
+}
+.btn{
+    padding: 10px;
+    font-size: larger;
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(77, 20, 247);;
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+
+}
+.register{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 0, 71);
+}
+a:hover{
+    text-decoration: underline;
+}

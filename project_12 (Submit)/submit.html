@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitting Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <form id="form" action="/action.php" method="get">
+            <h1>Login</h1>
+            <div 
+                class="allboxes"><input type="text" placeholder="Username" required>
+            </div>
+            <div 
+                class="allboxes"><input type="password" placeholder="Password" required>
+                <box-icon type='solid' name='lock-alt'></box-icon>
+            </div>
+            <div id="check">
+                <label><input  type="checkbox"> Remember Me</label>
+                <a id="forget" href="#">Forget Password</a>
+            </div>
+            <button 
+                type="submit" class="btn"> Login
+            </button>
+            <div class="register">
+                <p>Don't have account ?</p><a href="#">Register Now</a>
+            </div>
+
+
+        </form> 
+    </div>
+</body>
+</html>
