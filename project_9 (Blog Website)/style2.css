@@ -1,0 +1,42 @@
+/* main part of blof website */
+.blog_hero {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog_hero_img {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blog_hero_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_hero_content h1 {
+    font-size: 45px;
+    padding: 10px 20px;
+}
+
+.blog_hero_review {
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+article {
+    padding: 10px 0;
+}
+
+article h1 {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+section {
+    width: 100%;
+}
