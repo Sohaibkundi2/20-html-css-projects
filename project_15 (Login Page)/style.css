@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    /* background: linear-gradient(rgb(9, 255, 9), rgb(255, 0, 0), rgb(19, 19, 255)); */
+    width: 100%;
+    background: url(3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.contant {
+    max-width: 400px;
+    border: 2px solid palevioletred;
+    width: 100%;
+    background-color: transparent;
+    webkit-backdrop-filter: blur(20px);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px palevioletred;
+    color: white;
+}
+
+.contant h2 {
+    color: white;
+    padding: 10px;
+}
+
+.inputs {
+    width: 100%;
+    padding: 10px;
+}
+
+.inputs input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid palevioletred;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: white;
+}
+
+.fa-solid {
+    margin-left: -30px;
+}
+
+.checkfor {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.checkbox,
+.forget a {
+    color: white;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.forget a:hover {
+    color: rgb(255, 0, 0);
+    transition: .3s ease-in-out;
+}
+
+button {
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 15px;
+    width: 80%;
+    outline: none;
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid palevioletred;
+    background-color: blueviolet;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    transition: .3s ease-in-out;
+    scale: .95;
+}
+
+.social_links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.social_links div i {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    /* background-color: #0a0a0a; */
+    transition: .2s linear;
+}
+
+p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+p span {
+    font-size: 18px;
+}
+
+.social_links .google i {
+    background-color: red;
+    box-shadow: 0 0 50px red;
+    color: white;
+}
+
+.google i:hover {
+    box-shadow: 0 0 30px red;
+    color: red;
+    background-color: transparent;
+}
+
+.social_links .twiter i {
+    background-color: black;
+    box-shadow: 0 0 50px black;
+    color: white;
+}
+
+.twiter i:hover {
+    box-shadow: 0 0 30px black;
+    color: black;
+    background-color: transparent;
+}
+
+.social_links .facebook i {
+    background-color: #0866ff;
+    box-shadow: 0 0 50px #0866ff;
+    color: white;
+}
+
+.facebook i:hover {
+    box-shadow: 0 0 30px #005ff7;
+    color: #0061fc;
+    background-color: transparent;
+}
+
+/* END OF PROJECT */
