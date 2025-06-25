@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'puppins', sans-serif;
+}
+
+:root {
+    --primery: #ffbb75;
+    --white: #fefefe;
+    --dark: #282828;
+    --black-dark: #000;
+}
+
+.root {
+    --primery: #ffbb75;
+    --white: #282828;
+    --dark: #fefefe;
+    --black-dark: #fff;
+    transition: all ease .5s;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    background-color: var(--dark);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+nav .logo {
+    color: #ffbb75;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.center a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 4px;
+    font-size: 18px;
+    transition: all ease .3s;
+    font-weight: 500;
+}
+
+.center a:hover {
+    color: var(--primery);
+    border-bottom: 3.5px solid var(--primery);
+    transition: all ease .1s;
+}
+
+.btn {
+    font-size: 16px;
+    color: var(--dark);
+    width: 135px;
+    height: 48px;
+    background-color: var(--primery);
+    font-weight: 600;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transition: all ease .3s;
+    opacity: .9;
+    cursor: pointer;
+}
+
+/* **********************page - 1 **************************** */
+.page-1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.mood {
+    width: 60px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: var(--white);
+    position: absolute;
+    top: 0%;
+    right: 6%;
+    display: flex;
+    align-items: center;
+    padding: 3px 2px;
+    cursor: pointer;
+    transition: linear .3s;
+}
+
+.theme {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: all ease .5s;
+}
+
+.push {
+    margin-left: 35px;
+    transition: all ease .5s;
+}
+
+
+
+
+.left,
+.right {
+    width: 50%;
+    padding: 5%;
+}
+
+.left img {
+    background: linear-gradient(to right, #282828, #282828, transparent), url(images/watch-bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 100% 15% 15% 100%;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right h1 {
+    color: var(--primery);
+    font-size: 5vw;
+    font-weight: 600;
+    line-height: 1;
+    padding: 5vh 0;
+}
+
+.right p {
+    color: var(--white);
+    font-size: 18px;
+    padding-right: 5vw;
+}
+
+.right .btn {
+    margin: 5vh 0;
+}
+
+/* ..................page 2 ........................ */
+.page-2 {
+    background-color: var(--white);
+    color: var(--dark);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.page-2 h1 {
+    font-weight: 800;
+    color: var(--black-dark);
+    padding: 2vw 10vw;
+    line-height: 1;
+}
+
+.page-2 p {
+    padding: 0 10vw;
+    font-size: 18px;
+}
+
+
+
+.card img {
+    width: 70px;
+}
+
+.card {
+    height: 350px;
+    width: 350px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    transition: all ease .3s;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.125), inset -20px -20px 60px rgb(255, 255, 255);
+}
+
+.card:hover {
+    transition: all ease .3s;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.card p,
+.card h1 {
+    padding: 0px;
+    margin: 15px;
+}
+
+.card h1 {
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ******************** RESPONSIVE PART ************************ */
+@media (max-width:950px) {
+    .center a {
+        margin: 0 9px;
+    }
+}
+
+@media (max-width:864px) {
+    nav .logo {
+        font-size: 20px;
+    }
+
+    .center a {
+        padding: 2px;
+        font-size: 16px;
+        margin: 0 8px;
+    }
+
+    .btn {
+        font-size: 15px;
+        width: 120px;
+        height: 45px;
+    }
+
+}
+
+@media (max-width:750px) {
+    .center {
+        display: none;
+    }
+
+    .page-1 {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 70%;
+        padding: 5%;
+    }
+
+    .left img {
+        padding: 18px;
+    }
+
+    .right h1 {
+        font-size: 8vw;
+    }
+
+    .right p {
+        font-size: 15px;
+    }
+
+    /* ..................page 2 ........................ */
+    .page-2 h1 {
+        font-weight: 600;
+        padding: 4vw 10vw;
+    }
+
+    .page-2 p {
+        font-size: 15px;
+    }
+
+    .card img {
+        width: 60px;
+    }
+
+    .card {
+        height: 320px;
+        width: 320px;
+    }
+
+    .card p,
+    .card h1 {
+        margin: 12px;
+    }
+
+    .card h1 {
+        font-weight: 500;
+    }
+
+    .btn {
+        width: 90px;
+        height: 36px;
+        background-color: var(--primery);
+        font-weight: 500;
+    }
+
+    nav .logo {
+        font-size: 18px;
+    }
+
+    .mood {
+        width: 40px;
+        height: 16px;
+        border-radius: 15px;
+    }
+
+    .theme {
+        width: 14px;
+        height: 14px;
+    }
+
+    .push {
+        margin-left: 25px;
+    }
+
+}
