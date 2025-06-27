@@ -1,0 +1,123 @@
+*{
+    @media (max-width:864px){
+        background-color:#E5E0B4;
+        .ist-div{
+            display: none;
+        }
+        .logo-pic{
+            width: 150px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .secend-div-h3{
+            margin-left: 50px;
+        }
+        .secend-div-pera{
+            font-size: smaller;
+            margin-top: 0px;
+            margin-left:50px;
+        }
+        .input-sec-1{
+            margin-left: 50px;
+        }
+        .checkbox-1{
+            margin-left: 50px;
+        }
+        .checkbox-2 {
+            margin-left:50px;
+        }
+        .button1 {
+            margin-left: 50px;
+        }
+        .button2{
+            margin-left: 50px;
+        }
+        .input-class{
+            gap:50px;
+        }
+
+
+    }
+    @media  (max-width:550px){
+        background-color: #ffffff;
+    }
+}
+main{
+    display: flex;
+}
+.ist-img{
+    width: 400px;
+    background-color: rgb(228, 108, 108);
+    margin-right: 40px;
+}
+.logo-pic{
+    width: 150px;
+    margin-top: 10px;
+}
+.secend-div-pera{
+    font-size: smaller;
+    margin-top: 0px;
+}
+.input-class{
+    display: flex;
+    gap: 20px;
+    @media (max-width:864px) {
+        display: flex;
+        gap: 100px;
+    }
+    @media  (max-width:550px){
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+.input-sec-2{
+    @media  (max-width:550px){
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}
+.before-input{
+    font-size: small;
+    padding-top: 0px;
+    margin: 0px;
+}
+.input{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 160px;
+}
+.button1{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 180px;
+    background-color: #007AFF;
+    color: #ffffff;
+
+}
+.button2{
+    margin-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 180px;
+    background-color: #000102;
+    color: #ffffff;
+    @media (max-width:864px) {
+        margin-left: 80px;
+    }
+    @media (max-width:550px) {
+        margin-left: 50px;
+    }
+}
+.br{
+    display: none;
+    @media (max-width:550px) {
+        display: block;
+        margin-left: 0px;
+    }
+}
