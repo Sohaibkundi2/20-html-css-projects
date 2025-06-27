@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.nav-logo{
+    width: 200px;
+    @media (max-width:700px) {
+        width: 150px;
+        margin-top: -10px;
+    }
+}
+.istanchor{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    @media (max-width:700px) {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    @media (max-width:600px) {
+        display: none;
+    }
+}
+.istanchor:hover{
+    text-decoration: underline ;
+}
+.navbutton{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 2px solid rgb(104, 104, 191);
+    border-radius: 3px;
+    font-weight: 600 ;
+    @media (max-width:600px) {
+        display: none;
+    }
+}
+.navbutton:hover{
+    background-color:#3D348B;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+}
+.three-line{
+    display: none;
+    margin-right: -20px;
+    @media (max-width:600px) {
+        display: block;
+    }
+}
+        /* Query section start */
+.query{
+    text-align: center;
+    background-color: #ADD4B8;
+}
+.query-h2{
+    padding: 20px;
+}
+.query-all{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    @media (max-width:600px) {
+        width: 200px;
+    }
+}
+.Message{
+    width: 300px;
+    @media (max-width:600px) {
+        width: 250px;
+    }
+}
+.name, .email {
+    padding-left: 50px;
+}
+.ri-user-fill, .ri-mail-fill{
+    position: relative;
+    left: 8vh;
+}
+.button{
+    width: 320px;
+    background-color: #3D348B;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: large;
+    @media (max-width:600px) {
+        width: 220px;
+    }
+
+}
+
+
+
+/* contact us form */
+
+.contact-inform{
+    text-align: center;
+    padding: 30px;
+    background-color:#F5C3FD;
+}
+.contact-h2{
+font-weight: 600;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+/* starting footer part */
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: beige;
+    flex-wrap: wrap;
+}
+.footer-all{
+    padding: 30px 0px 20px 0px;
+    width: 200px;
+    text-align: center;
+}
+.footer-1{
+    padding-top: 20px;
+}
+.footer-logos{
+    width: 110px;
+    padding: 20px;
+}
+.footer-2-1{
+    /* text-decoration: none; */
+    color: black;
+}
+.sec-3-1{
+    display: flex;
+    font-size: small;
+    gap: 20px;
+}
+.footer-4-img{
+    width: 30px;
+    padding: 0px 10px 10px 10px;
+}
+.footer-4-all{
+    @media (min-width:615px) {
+    display: flex;
+    justify-content: space-between;
+    }
+    @media (min-width:800px) {
+        display: block;
+        }
+}
