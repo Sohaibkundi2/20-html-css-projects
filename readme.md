@@ -25,6 +25,7 @@ A collection of beginner-to-intermediate web development projects built using HT
 | 15  | Login Page (Glass UI)    | [🔗 View Project](./project_15%20(Login%20Page)/)              | Login form with modern glassmorphism style and social icons                |
 | 16  | Smart Watch Landing Page | [🔗 View Project](./project_16%20(Watch)/)                     | Landing page with dark/light toggle and modern watch product sections      |
 | 17 | Rotating Cards         | [🔗 View Project](./project_17%20(Rotating%20Cards)/) | 3D rotating carousel of cards using CSS transforms |
+| 18 | Netflix Pakistan        | [🔗 View Project](./project_18%20(Netflix%20Pakistan)/) | Responsive Netflix homepage clone with FAQ accordion |
 
 
 ---
