@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- .................... Starting nav part ......................... -->
+    <nav>
+        <div class="nav-left">
+            <img src="./images/logo.png" alt="">
+
+            <ul>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="nav-search">
+                <img src="images/search.png" alt="search">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="profile-img online" onclick="navProfileTougle()">
+                <img src="images/copy.img.jpg" alt="profile image">
+            </div>
+        </div>
+
+
+
+        <!-- ..................Setting menu..................... -->
+        <div class="settings-menu">
+
+
+
+
+
+            <div class="setting-menu-inner">
+
+                <div id="darkMood">
+                    <span></span>
+                </div>
+
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/copy.img.jpg" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Muhammad Sohaib</h4>
+                        <a href="#1">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/feedback.png" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Give Feedback</h4>
+                        <a href="#1">Help us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon" alt="">
+                    <a href="#1">Setting & Privacy <img src="images/arrow.png" width="8px" alt=""></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon" alt="">
+                    <a href="#1">Help & Support <img src="images/arrow.png" width="8px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon" alt="">
+                    <a href="#1">display & Accessibility <img src="images/arrow.png" width="8px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon" alt="">
+                    <a href="#1">Logout<img src="images/arrow.png" width="8px" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- ....................starting left side bar....................... -->
+        <div class="left-side-bar">
+            <div class="media-links">
+                <a href="#1"><img src="images/news.png" alt="news">Latest News</a>
+                <a href="#1"><img src="images/friends.png" alt="friends">Friends</a>
+                <a href="#1"><img src="images/group.png" alt="group">Groups</a>
+                <a href="#1"><img src="images/marketplace.png" alt="marketplace">Marketplace</a>
+                <a href="#1"><img src="images/watch.png" alt="watch">Watch</a>
+                <a href="#1">See more</a>
+            </div>
+
+            <div class="shortcut-links">
+                <p>your shorts</p>
+                <a href="#1"><img src="images/shortcut-1.png" alt="web">Web Develpors</a>
+                <a href="#1"><img src="images/shortcut-2.png" alt="web">Web Design Cource</a>
+                <a href="#1"><img src="images/shortcut-3.png" alt="web">Full Stack Development</a>
+                <a href="#1"><img src="images/shortcut-4.png" alt="web">Website Exports</a>
+            </div>
+
+        </div>
+
+        <!-- ....................starting main....................... -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story-1 ">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story-2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Angel Pari</p>
+                </div>
+                <div class="story story-3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Umar Afghan</p>
+                </div>
+                <div class="story story-4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Meera Khan</p>
+                </div>
+                <div class="story story-5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Danish</p>
+                </div>
+            </div>
+
+            <div class="post-part">
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/copy.img.jpg" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Muhammad Sohaib</h4>
+                        <small>Public <i class="ri-arrow-down-s-fill"></i></small>
+                    </div>
+                    <div class="three-dot-icon"><i class="ri-more-2-fill"></i></div>
+                </div>
+
+                <div class="post-profile-input">
+                    <textarea class="text-area" placeholder="What's on your mind Sohaib ?"></textarea>
+
+                    <div class="post-media-links">
+                        <a href="#1"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#1"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#1"><img src="images/feeling.png" alt="">Feeling </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secend-post-part">
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/copy.img.jpg" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Muhammad Sohaib</h4>
+                        <span>2024/07/25 08:15 AM</span>
+                    </div>
+                    <div class="three-dot-icon"><i class="ri-more-2-fill"></i></div>
+                </div>
+
+                <p class="post-2-text">Me with my friends at Work</p>
+                <img class="post-2-img" src="images/feed-image-1.png" alt="">
+
+
+                <div class="post-2-icons">
+                    <div class="part-1-icon">
+                        <a href="#1"><img src="images/like-blue.png" alt="">174</a>
+                        <a href="#1"><img src="images/comments.png" alt="">61</a>
+                        <a href="#1"><img src="images/share.png" alt="">49</a>
+
+                    </div>
+                    <div class="part-2-icon">
+
+                        <img src="images/copy.img.jpg" alt=""><i class="ri-arrow-down-s-fill"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="secend-post-part">
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Umar Afghan</h4>
+                        <span>2024/07/24 10:22 PM</span>
+                    </div>
+                    <div class="three-dot-icon"><i class="ri-more-2-fill"></i></div>
+                </div>
+
+                <p class="post-2-text">Enjoying with Friends</p>
+                <img class="post-2-img" src="images/feed-image-2.png" alt="">
+
+
+                <div class="post-2-icons">
+                    <div class="part-1-icon">
+                        <a href="#1"><img src="images/like.png" alt="">824</a>
+                        <a href="#1"><img src="images/comments.png" alt="">215</a>
+                        <a href="#1"><img src="images/share.png" alt="">109</a>
+
+                    </div>
+                    <div class="part-2-icon">
+                        <img src="images/copy.img.jpg" alt=""><i class="ri-arrow-down-s-fill"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="secend-post-part">
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/copy.img.jpg" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Muhammad Sohaib</h4>
+                        <span>2022/06/25 07:19 PM</span>
+                    </div>
+                    <div class="three-dot-icon"><i class="ri-more-2-fill"></i></div>
+                </div>
+
+                <p class="post-2-text">At University, (2 Years ago)</p>
+                <img class="post-2-img" src="images/feed-image-3.png" alt="">
+
+
+                <div class="post-2-icons">
+                    <div class="part-1-icon">
+                        <a href="#1"><img src="images/like-blue.png" alt="">74</a>
+                        <a href="#1"><img src="images/comments.png" alt="">81</a>
+                        <a href="#1"><img src="images/share.png" alt="">29</a>
+
+                    </div>
+                    <div class="part-2-icon">
+
+                        <img src="images/copy.img.jpg" alt=""><i class="ri-arrow-down-s-fill"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="secend-post-part">
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/member-3.png" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Meera Khan</h4>
+                        <span>2024/07/19 05:19 AM</span>
+                    </div>
+                    <div class="three-dot-icon"><i class="ri-more-2-fill"></i></div>
+                </div>
+
+                <p class="post-2-text">Another busy day </p>
+                <img class="post-2-img" src="images/feed-image-4.png" alt="">
+
+
+                <div class="post-2-icons">
+                    <div class="part-1-icon">
+                        <a href="#1"><img src="images/like-blue.png" alt="">174</a>
+                        <a href="#1"><img src="images/comments.png" alt="">61</a>
+                        <a href="#1"><img src="images/share.png" alt="">49</a>
+
+                    </div>
+                    <div class="part-2-icon">
+
+                        <img src="images/copy.img.jpg" alt=""><i class="ri-arrow-down-s-fill"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="secend-post-part">
+                <div class="post-part-profile">
+                    <div class="post-profile-image">
+                        <img src="images/member-1.png" alt="">
+                    </div>
+                    <div class="post-profile-name">
+                        <h4>Angel Pari</h4>
+                        <span>2024/07/23 09:45 PM</span>
+                    </div>
+                    <div class="three-dot-icon"><i class="ri-more-2-fill"></i></div>
+                </div>
+
+                <p class="post-2-text">Me with my friends at Work</p>
+                <img class="post-2-img" src="images/feed-image-5.png" alt="">
+
+
+                <div class="post-2-icons">
+                    <div class="part-1-icon">
+                        <a href="#1"><img src="images/like-blue.png" alt="">174</a>
+                        <a href="#1"><img src="images/comments.png" alt="">61</a>
+                        <a href="#1"><img src="images/share.png" alt="">49</a>
+
+                    </div>
+                    <div class="part-2-icon">
+
+                        <img src="images/copy.img.jpg" alt=""><i class="ri-arrow-down-s-fill"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn"><button>load more</button></div>
+
+
+
+
+        </div>
+        <!-- ....................starting right side bar....................... -->
+        <div class="right-side-bar">
+            <div class="right-side-bar-heading">
+                <h4>Events</h4>
+                <a href="#1">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="event-date">
+                    <h3>07</h3><span>March</span>
+                </div>
+                <div class="event-content">
+                    <h4>Social Media</h4>
+                    <p>Amakhel Tank</p>
+                    <a href="#1">learn More</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">
+                    <h3>16</h3><span>july</span>
+                </div>
+                <div class="event-content">
+                    <h4>Marketing</h4>
+                    <p>Tank City</p>
+                    <a href="#1">learn More</a>
+                </div>
+            </div>
+
+            <div class="right-side-bar-heading">
+                <h4>Adevertisement</h4>
+                <a href="#1">Close</a>
+            </div>
+
+            <div class="ads">
+                <img src="images/advertisement.png" alt="ads">
+            </div>
+
+            <div class="right-side-bar-heading">
+                <h4>Conversation</h4>
+                <a href="#1">Hide Chat</a>
+            </div>
+
+            <div class="online-users">
+                <div class="user-content">
+                    <div class="user online">
+                        <img src="images/member-1.png" alt="member">
+                        <p>Angel Pari</p>
+                    </div>
+                    <div class="user online">
+                        <img src="images/member-2.png" alt="member">
+                        <p>Umar Afghan</p>
+                    </div>
+                    <div class="user online">
+                        <img src="images/member-3.png" alt="member">
+                        <p>Meera Khan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="footer">
+        <p>Copyright 2024 - Sohaib Khan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
