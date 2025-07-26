@@ -1,11 +1,11 @@
-# Nature-Themed Section Layout (Parallex Website)🌿
+# Nature-Themed Section Layout (Parallex Website)
 
 A visually appealing, responsive multi-section web page designed using HTML and CSS. Each section highlights scenic nature backgrounds with parallax-style fixed attachments.
 
-## 🚀 Live Preview
+##  Live Preview
 - live preview will availabe soom when project is upload to github
 
-## 📌 Features
+##  Features
 
 - Multiple full-screen sections with background images
 - Parallax scrolling effect using `background-attachment: fixed`
@@ -13,16 +13,16 @@ A visually appealing, responsive multi-section web page designed using HTML and 
 - Justified content blocks with smooth typography
 - Responsive font sizing via media queries
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - HTML5
 - CSS3 (Flexbox, Backgrounds, Media Queries)
 
-## 🖼️ Screenshot
+##  Screenshot
 
 ![Screenshot](./screenshot.png)
 
-## 📁 Folder Structure
+##  Folder Structure
 ```
 ├── index.html
 ├── style.css
@@ -32,7 +32,7 @@ A visually appealing, responsive multi-section web page designed using HTML and 
 │ └── nature-3.png
 └── screenshot.png
 ```
-## 📜 License
+##  License
 
 Free to use for educational or non-commercial purposes.
 

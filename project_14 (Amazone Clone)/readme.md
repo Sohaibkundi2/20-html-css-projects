@@ -1,10 +1,10 @@
-# 🛒 Amazon Clone (HTML & CSS)
+#  Amazon Clone (HTML & CSS)
 
 This is a beginner-friendly Amazon Clone created using only **HTML and CSS**. The project replicates the basic structure and layout of the Amazon homepage for desktop screens.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Custom navigation bar with Amazon logo, search bar, and user account area
 - Second-level navigation menu for categories
@@ -16,7 +16,7 @@ This is a beginner-friendly Amazon Clone created using only **HTML and CSS**. Th
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
 ![Amazon Clone Preview](./image.png)
 
@@ -25,23 +25,18 @@ This is a beginner-friendly Amazon Clone created using only **HTML and CSS**. Th
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - **This version is not responsive.** It is designed for learning layout and structure first.
 - Will improve this with responsiveness and interactivity in future updates.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-- Sohaib Kundi  
+- Muhammad Sohaib  
 - Gomal University, Sub Campus Tank  
 - [GitHub Profile](https://github.com/sohaibkundi2) 
 
 ---
-
-## 📅 Project Status
-
-✅ Version 1 Completed: Basic HTML/CSS  
-🕒 Next Steps: Responsive Design, JavaScript for interactivity (optional: pending in future 😅)
 

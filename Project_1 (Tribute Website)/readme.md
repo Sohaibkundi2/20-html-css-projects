@@ -1,8 +1,8 @@
-# Tribute Website – Nikola Tesla ⚡
+# Tribute Website – Nikola Tesla 
 
 A responsive tribute webpage dedicated to Nikola Tesla, built with HTML and CSS.
 
-## 📌 Features
+##  Features
 
 - Flexbox-based responsive layout
 - Glassy tribute design with image and biography
@@ -10,11 +10,11 @@ A responsive tribute webpage dedicated to Nikola Tesla, built with HTML and CSS.
 - Lists of Tesla's notable contributions
 - Responsive design with mobile support via media queries
 
-## 🖼️ Screenshot
+##  Screenshot
 
 ![Tesla Tribute Screenshot](./photos/image.png)
 
-## 📁 Folder Structure
+##  Folder Structure
 ```
 /tribute-website/
 │
@@ -25,11 +25,7 @@ A responsive tribute webpage dedicated to Nikola Tesla, built with HTML and CSS.
 │ └── nikolaLab.png.webp
 │ └── image.png
 ```
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - HTML5
 - CSS3 (Flexbox, Media Queries)
-
-## 📜 License
-
-Free to use for educational or non-commercial purposes.

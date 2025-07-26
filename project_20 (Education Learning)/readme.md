@@ -1,21 +1,19 @@
-# 🎓 Education Learning Platform
+# Education Learning Platform
 
 A responsive, multi-page educational website that offers a clean and engaging user experience. Built with **HTML**, **CSS**, and **JavaScript**, this platform allows users to browse courses, view mentor profiles, and register for learning programs.
 
 ---
 
-##   Project Overview
-
-This platform is designed as part of my **36-Week Coding Challenge** (Project #20) and simulates a modern e-learning site where users can:
+## Project Overview
 
 - Discover in-demand courses
 - View experienced mentors
-- Log in or sign up
+- Log in or sign up pages
 - Reach out through the contact form
 
 ---
 
-## 🌟 Features
+##  Features
 
 -  Hero section with search bar and call-to-action
 -  Multiple course cards with booking options
@@ -44,9 +42,9 @@ This platform is designed as part of my **36-Week Coding Challenge** (Project #2
 ##  Responsiveness
 
 The layout adapts perfectly for:
-- ✅ Desktop
-- ✅ Tablet
-- ✅ Mobile devices
+-  Desktop
+-  Tablet
+-  Mobile devices
 
 Using custom media queries and a mobile-first approach.
 
@@ -58,8 +56,8 @@ Using custom media queries and a mobile-first approach.
 
 > For suggestions, collaboration, or feedback:
 
-- 📧 Email: sohaib@example.com  
-- 🔗 GitHub: [@sohaibkundi2](https://github.com/sohaibkundi)
+-  Email: sohaib@example.com  
+-  GitHub: [@sohaibkundi2](https://github.com/sohaibkundi)
 
 ---
 

@@ -52,7 +52,7 @@ project_15 (Login Page)/
 
 ## Author
 
-- **Sohaib Kundi**
+- **Muhammad Sohaib**
 - BS Computer Science, Gomal University Sub Campus Tank
 - GitHub: [sohaibkundi2](https://github.com/sohaibkundi2)
 

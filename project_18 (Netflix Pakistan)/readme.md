@@ -1,10 +1,10 @@
-# 🎬 Netflix Pakistan – Landing Page Clone
+#  Netflix Pakistan – Landing Page Clone
 
 A responsive, modern Netflix landing page clone built with pure HTML, CSS, and JavaScript (no frameworks). This project mimics the look and feel of Netflix Pakistan's homepage with localized design and user interaction effects.
 
 ---
 
-## 🔥 Features
+##  Features
 
 - Responsive design across screen sizes
 - Hero section with email input and CTA
@@ -15,7 +15,7 @@ A responsive, modern Netflix landing page clone built with pure HTML, CSS, and J
 
 ---
 
-## 📷 Screenshots
+## Screenshot
 
 ![Netflix Hero](./image.png)
 
@@ -24,7 +24,7 @@ A responsive, modern Netflix landing page clone built with pure HTML, CSS, and J
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3 (Media Queries, Animations, Flexbox)
@@ -33,9 +33,9 @@ A responsive, modern Netflix landing page clone built with pure HTML, CSS, and J
 
 ---
 
-## 👨 Author
+##  Author
 
-**Sohaib Kundi**  
+**Muhammad Sohaib**  
 Frontend Developer | UI/UX Learner  
 [GitHub](https://github.com/sohaibkundi2) • [LinkedIn](https://linkedin.com/in/sohaibkundi2)
 
