@@ -1,10 +1,10 @@
-# 🌐 Developer Landing Page – Sohaib Kundi
+#  Developer Landing Page – Sohaib Kundi
 
 A responsive landing page for a full-stack developer built using HTML and CSS. This project showcases services, a hero section, an about section, and contact information.
 
 ---
 
-## 📌 Features
+##  Features
 
 - Hero section with background image and greeting headline
 - Responsive design with media queries
@@ -14,14 +14,14 @@ A responsive landing page for a full-stack developer built using HTML and CSS. T
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - HTML5
 - CSS3 (Flexbox, Media Queries)
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 ├── index.html
@@ -33,8 +33,8 @@ A responsive landing page for a full-stack developer built using HTML and CSS. T
 │ └── hero2.jpg
 └── screenshot.png
 ```
-## 📸 Screenshot
+##  Screenshot
 
 ![Landing Page Screenshot](./screenshot.png)
 
-Made with 💻 by **Sohaib Kundi**
+Made with  by **Muhammad Sohaib**

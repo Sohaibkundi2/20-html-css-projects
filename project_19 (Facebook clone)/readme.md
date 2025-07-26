@@ -1,27 +1,27 @@
-# Facebook Clone 🔵 | project_19
+# Facebook Clone | project_19
 
 A responsive Facebook clone built using **HTML**, **CSS**, and **JavaScript**. This project replicates Facebook’s layout and core UI features including the navbar, sidebar, posts, story section, profile, and dark mode toggle.
 
-## 📸 Demo
+##  Demo
 
 ![ss](image.png)
 
-## 🚀 Features
+##  Features
 
-- 🔹 Facebook-like UI with header, profile & post sections
-- 🔹 Dark mode toggle with persistent theme (localStorage)
-- 🔹 Responsive layout for desktop & mobile
-- 🔹 Interactive elements (search, posts, settings menu)
-- 🔹 Profile and Home page versions included
+- Facebook-like UI with header, profile & post sections
+- Dark mode toggle with persistent theme (localStorage)
+- Responsive layout for desktop & mobile
+- Interactive elements (search, posts, settings menu)
+- Profile and Home page versions included
 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5**
 - **CSS3**
 - **Vanilla JavaScript**
 - **Remix Icon CDN**
 
-## 📂 Folder Structure
+## Folder Structure
 ```
 project_19 (facebook clone)/
 │
@@ -34,14 +34,13 @@ project_19 (facebook clone)/
 └── image.png/
 ```
  ## Preview
-- 📱 Mobile Responsive View
+-  Mobile Responsive View
 
-- 🌙 Dark Mode Toggle
+-  Dark Mode Toggle
 
-- 👤 Profile Page Simulation
-
+-  Profile Page Simulation
+---
 ### Auther
- Author
 
 - **Muhammad Sohaib**
 - [Github](https://github.com/SohaibKundi)

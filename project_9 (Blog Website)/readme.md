@@ -1,8 +1,8 @@
-# 📝 Blog Website - GreatZone
+#  Blog Website - GreatZone
 
 A simple and responsive blog homepage built using **HTML** and **CSS**. It showcases a clean layout with a hero section, featured blog posts, and a footer with social icons.
 
-## 🌟 Features
+##  Features
 
 - Modern and clean UI
 - Responsive design for mobile and desktop
@@ -11,18 +11,18 @@ A simple and responsive blog homepage built using **HTML** and **CSS**. It showc
 - Blog cards with preview content
 - Footer with social media icons
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
 - Media Queries for responsiveness
 
 
-## 📸 Preview
+##  Preview
 
 ![screenshot](image.png)
 
-## 📌 Author
+##  Author
 
-**Sohaib Kundi** — [GitHub Profile](https://github.com/sohaibkundi2)
+**Muhammad Sohaib** — [GitHub Profile](https://github.com/sohaibkundi2)
 

@@ -4,13 +4,13 @@ This project features a 3D rotating carousel of image cards using **HTML**, **CS
 
 ---
 
-## 📸 Live Preview
+##  Live Preview
 
-**![🔗 View Project](./image.png)**
+**![ View Project](./image.png)**
 
 ---
 
-## ✨ Features
+##  Features
 
 - 3D rotation using `perspective` and `rotateY`
 - Smooth `@keyframes` animation
@@ -20,7 +20,7 @@ This project features a 3D rotating carousel of image cards using **HTML**, **CS
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5**
 - **CSS3** (with `transform`, `box-shadow`, `animation`)
@@ -29,9 +29,9 @@ This project features a 3D rotating carousel of image cards using **HTML**, **CS
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-**Sohaib Kundi**  
+**Muhammad Sohaib**  
 Frontend Developer | UI/UX Learner  
 [GitHub](https://github.com/sohaibkundi2) • [LinkedIn](https://linkedin.com/in/sohaibkundi2)
 

@@ -40,7 +40,7 @@ This is a modern and stylish landing page for a Smart Watch product. It is built
 
 ## Author
 
-- **Sohaib Kundi**
+- **Muhammad Sohaib**
 - BSCS - Gomal University, Sub Campus Tank
 - GitHub: [sohaibkundi2](https://github.com/sohaibkundi2)
 
